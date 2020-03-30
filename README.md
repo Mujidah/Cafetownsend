@@ -32,10 +32,12 @@ Check for the test results from the IDE's terminal or get the web version(index.
 ## Conclusion
 Summarily, I nudged towards using Selenium Webdriver with Java using Maven and TestNG. I used a design pattern called Page Object Model - an approach to separate the elements and functions from the test validations and make the tests independent of the page objects.
 
-The test cases covered are for these features and all test passed successfully;
+The test cases covered are for these features and all test passed successfully:
 
-a.	Login 
+a.	Login
+
 b.	Logout
+
 c.	View Employees
 
 Due to an unexpected error in the application, I was unable to deepen the tests to cover other important features of the application such as Create, Update and Delete employee. 
