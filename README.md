@@ -17,7 +17,7 @@ Enter 'git clone "git url"'
 The project will be copied to your preferred location and ready for import
 
 ### How to import the project on Eclipse
-Since its a maven project, do the following;
+Since its a maven project, carry out the following steps;
 Launch IDE (Eclipse)
 Click File in the menu
 Click on Import -> Maven/Existing Maven Projects
@@ -38,8 +38,11 @@ c.	View Employees
 Due to an unexpected error in the application, I was unable to deepen the tests to cover other important features of the application such as Create, Update and Delete employee. 
 
 I created a data properties file to store data like browser and app url. This was done to minimize error in case of a change and the change will only be done in one place. 
+
 I used TestNG as the test framework for an easy test management as it provides features regarding how many tests to run and when to run them.
+
 I used Maven as the build management tool for easy downloads of libraries and collaboration
+
 Finally, I manually tested a wide range of features in the application, covering the full breadth of test cases around Positive scenarios and negative scenarios
 
 
