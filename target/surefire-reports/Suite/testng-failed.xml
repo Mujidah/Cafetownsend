@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="appTests.viewEmployeesTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="viewEmployee"/>
+          <include name="setupApp"/>
+        </methods>
+      </class> <!-- appTests.viewEmployeesTest -->
+      <class name="appTests.logoutTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="logout"/>
+          <include name="setupApp"/>
+        </methods>
+      </class> <!-- appTests.logoutTest -->
+      <class name="appTests.loginTest">
+        <methods>
+          <include name="loginwithNoDetails"/>
+          <include name="closeApp"/>
+          <include name="loginwithInvalidDetails"/>
+          <include name="testLoginSuccessfully"/>
+          <include name="setupApp"/>
+        </methods>
+      </class> <!-- appTests.loginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

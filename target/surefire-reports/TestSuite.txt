@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 118.3 s <<< FAILURE! - in TestSuite
+appTests.loginTest.loginwithNoDetails  Time elapsed: 14.496 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/button[1]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ISW-GSTQA-MA', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MUJIDA~1.ALA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8d3956aee7643020313376b53e0c31bf
+*** Element info: {Using=xpath, value=//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/button[1]}
+	at appTests.loginTest.loginwithNoDetails(loginTest.java:17)
+
+appTests.loginTest.loginwithInvalidDetails  Time elapsed: 4.401 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ISW-GSTQA-MA', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MUJIDA~1.ALA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8d3956aee7643020313376b53e0c31bf
+*** Element info: {Using=xpath, value=//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]}
+	at appTests.loginTest.loginwithInvalidDetails(loginTest.java:27)
+
+appTests.loginTest.testLoginSuccessfully  Time elapsed: 4.425 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ISW-GSTQA-MA', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MUJIDA~1.ALA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8d3956aee7643020313376b53e0c31bf
+*** Element info: {Using=xpath, value=//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]}
+	at appTests.loginTest.testLoginSuccessfully(loginTest.java:38)
+
+appTests.viewEmployeesTest.viewEmployee  Time elapsed: 14.664 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ISW-GSTQA-MA', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MUJIDA~1.ALA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ade04f2b9c74d60b88dc7dcd4e53b83
+*** Element info: {Using=xpath, value=//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]}
+	at appTests.viewEmployeesTest.viewEmployee(viewEmployeesTest.java:16)
+
+appTests.logoutTest.logout  Time elapsed: 10.316 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ISW-GSTQA-MA', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MUJIDA~1.ALA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 193d0e8a1a1c80091b1a5ff341aea19b
+*** Element info: {Using=xpath, value=//html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/label[1]/input[1]}
+	at appTests.logoutTest.logout(logoutTest.java:19)
+
